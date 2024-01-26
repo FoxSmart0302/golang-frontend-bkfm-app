@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply h-full bg-gray-50;
+}   
+
+body {
+  @apply h-full;
+}
+
+.edit-button {
+  background-color: #269bff;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+.edit-button:hover{
+    background-color: #0089ff;
+}
+.delete-button {
+  background-color: #f1635f;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+.delete-button:hover{
+    background-color: #ee413c;
+}
+.add-button{
+  background-color: #7bb763;
+  transition: all 0.3s;
+}
+.add-button:hover{
+  background-color: #6da556;
+}
+.multi-button{
+  background-color: #009c8a;
+  transition: all 0.3s;
+}
+.multi-button:hover{
+  background-color: #007668;
+}
+
+.pencil-button{
+  transition: all 0.3s;
+  background-color: #feba47;
+}
+.pencil-button:hover{
+  background-color: #feac21;
+}
+
+.module-button{
+  background-color: #0cca8e;
+  transition: all 0.3s;
+
+}
+.module-button:hover{
+  background-color: #0aa675;
+}
+
+.print-button{
+  transition: all 0.3s;
+  background-color: #269bff;
+
+}
+.print-button:hover{
+  background-color: #0089ff;
+  cursor: pointer;
+}
+
+.w-40{
+  width: 12rem;
+}
+
+.companyheaderbody{
+  display: grid;
+  height: 150px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1rem;
+}
+
+.companyheader{
+  font-size: 25px;
+  font-weight: bold;  
+}
+
+.companysubheaderbody{
+  display: grid;
+  height: 80px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1rem;
+}
+
+.companysubheader{
+  font-size: 19px;
+  font-weight: bold;
+}
+.d-flex{
+  display: flex;
+}
+.totalcompanyshow{
+  justify-content: space-around;
+}
+.dashboardbutton{
+  transition: all 0.3s;
+}
+.dashboardbutton:hover{
+  transform: scale(1.05);
+}
